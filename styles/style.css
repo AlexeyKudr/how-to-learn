@@ -145,7 +145,6 @@ z-index: 5;
   font-size: 60px;
   font-weight: 600;
   padding-bottom: 20px;
-
 }
 
 .section-subtitle {
@@ -257,7 +256,7 @@ z-index: 5;
   background-size: cover;
   right: -210px;
   top: 0;
-  z-index: 0
+  z-index: 0;
 }
 
 .table_theme_dark {
@@ -278,7 +277,6 @@ z-index: 5;
   color: white;
   margin-bottom: 0;
   margin-top: 80px;
-
 }
 
 .section-title_theme_dark {
@@ -385,6 +383,12 @@ z-index: 5;
   display: inline-block;
 }
 
+.footer__navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .footer__author {
   line-height: 25px;
   font-size: 18px;
@@ -392,10 +396,4 @@ z-index: 5;
   margin: 0;
   padding: 18px 0;
   color: white;
-}
-
-.footer__navigation {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
